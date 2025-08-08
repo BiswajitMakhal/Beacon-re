@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: SangBleu;
+    src: url(../ASSETS/fonts/SangBleu\ Sunrise.ttf);
+}
+
+body {
+    font-family: SangBleu, sans-serif;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+:root {
+    --primary-color: #AA6AAA;
+    --secondary-color: #717175;
+}
+
+/*=============
+ Common classes
+ ============== */
+.container {
+    max-width: 1170px !important;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+p {
+    font-family: "DM Sans", sans-serif;
+    color: var(--secondary-color);
+}
+
+.btn-1 {
+    font-family: "DM Sans", sans-serif;
+}
+
+.title {
+    font-size: 54px;
+}
+
+.title-2 {
+    font-size: 50px;
+}
+
+.title-3 {
+    font-size: 28px;
+}
+
+/*=============
+ Header section
+ =============== */
+header {
+    font-family: "DM Sans", sans-serif;
+}
+
+.nav-container {
+    max-width: 1428px !important;
+}
+
+.nav-wrapper {
+    flex-grow: 1;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.nav-logo {
+    max-width: 224px;
+    position: absolute;
+    top: -10px;
+    left: 50px;
+}
+
+.navbar-brand>img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.nav-link {
+    color: black;
+}
+
+.navbar-nav {
+    margin-right: 33px;
+}
+
+.nav-btn>a {
+    padding: 16px 14px;
+    background: #EAE4EA;
+    border: 1px solid #E5DCE5;
+    border-radius: 50px;
+    color: black;
+}
+
+.nav-list {
+    color: black;
+    margin-right: 30px;
+}
+
+.nav-list:hover {
+    color: var(--primary-color);
+}
+
+.nav-btn>a:hover {
+    background: rgba(172, 171, 171, 0.778);
+}
+
+/* Off canvas */
+.offcanvas {
+    background: #eae4ea;
+}
+
+/*=============
+ Banner section
+ =============== */
+.banner-section {
+    padding: 0px 15px 80px;
+}
+
+.banner-wrapper {
+    background: url(../ASSETS/gif.png) no-repeat center/cover;
+    padding-top: 120px;
+    border-radius: 20px;
+}
+
+.banner-contents>h1 {
+    max-width: 984px;
+    margin: 0 auto;
+}
+
+.banner-contents>p {
+    max-width: 817px;
+    margin: 0 auto;
+    margin-block: 22px 30px;
+}
+
+.banner-contents>a {
+    background: var(--primary-color);
+    border-radius: 50px;
+    padding: 20px 24px;
+    color: #FFFFFF;
+    margin-bottom: 36px;
+}
+
+.banner-contents>a:hover {
+    background: rgba(143, 8, 130, 0.684);
+}
+
+.banner-gif {
+    border-top: 1px solid #FFFFFF;
+    border-left: 1px solid #FFFFFF;
+    border-right: 1px solid #FFFFFF;
+    border-radius: 24px 24px 0 0;
+    padding: 13px 13px 0 13px;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.banner-gif>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 24px 24px 0 0;
+}
+
+/*=============
+ Property section
+ =============== */
+.prop-section {
+    padding-bottom: 63px;
+}
+
+.prop-primary>h2 {
+    max-width: 513px;
+    margin-bottom: 82px;
+}
+
+.prop-prime-img {
+    max-width: 475px;
+    max-height: 609px;
+}
+
+.prop-prime-img>img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.prop-second-img {
+    max-width: 440px;
+    max-height: 415px;
+}
+
+.prop-second-img>img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.prop-secondary>div>p {
+    margin-block: 72px 77px;
+    max-width: 500px;
+}
+
+.prop-secondary>div>a {
+    background: var(--primary-color);
+    padding: 15px 42px;
+    border-radius: 100px;
+    color: #FFFFFF;
+}
+
+.prop-secondary>div>a:hover {
+    background: rgba(143, 8, 130, 0.684);
+}
+
+/*=============
+ Card section
+ =============== */
+.card-section {
+    padding: 100px 0;
+    background: #cfc6d333;
+}
+
+.card-section .title-2 {
+    max-width: 834px;
+    margin: 0 auto;
+    margin-bottom: 47px;
+}
+
+.large-container {
+    max-width: 1530px !important;
+}
+
+.c-img {
+    max-width: 360px;
+    height: 356px;
+    margin: 0 auto;
+    margin-block: 9px;
+    border-radius: 10px;
+}
+
+.c-img>img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.max {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 28px;
+    max-width: 360px;
+    height: 356px;
+    margin-block: 9px;
+    border-radius: 10px;
+}
+
+.w-color-card {
+    background: #EAE4EA;
+}
+
+.s-color-card {
+    background: #AA6AAA;
+    color: #FFFFFF;
+}
+
+.s-color-card>div>p {
+    color: #FFFFFF;
+}
+
+.s-color-card>a {
+    color: #FFFFFF;
+    font-family: "DM Sans", sans-serif;
+}
+
+.w-color-card>a {
+    color: black;
+    font-family: "DM Sans", sans-serif;
+}
+
+.s-color-card>div>p,
+.w-color-card>div>p {
+    max-width: 303px;
+    margin-top: 30px;
+}
+
+.s-color-card>a:hover,
+.w-color-card>a:hover {
+    text-decoration: underline;
+}
+
+.c-icon {
+    width: 12.5px;
+    margin-left: 6px;
+}
+
+
+/* -------------------------------------------BREAKPOINT-------------------------------------------------- */
+
+@media screen and (max-width:992px) {
+    .title {
+        font-size: 40px;
+    }
+
+    .title-2 {
+        font-size: 35px;
+    }
+
+    /* Header section */
+    .nav-logo {
+        max-width: 200px;
+        top: 0;
+        left: 40px;
+    }
+
+    .nav-btn-lg {
+        margin-left: auto;
+        margin-right: 15px;
+    }
+
+
+    /* Property section */
+    .prop-prime-img,
+    .prop-second-img {
+        margin: 0 auto;
+    }
+
+    .prop-primary>h2 {
+        margin: 0 auto 25px;
+        text-align: center;
+    }
+
+    .prop-secondary>div {
+        margin-bottom: 18px;
+        text-align: center;
+    }
+
+    .prop-secondary>div>p {
+        margin: 40px auto 40px;
+        font-size: 13px;
+    }
+
+}
+
+@media screen and (max-width:767.98px) {
+
+    /* Card section */
+    .reverse {
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .title {
+        font-size: 25px;
+    }
+
+    .title-2 {
+        font-size: 20px;
+    }
+
+    .title-3 {
+        font-size: 18px;
+    }
+
+    /* Header section */
+    .nav-logo {
+        max-width: 130px;
+        left: 10px;
+    }
+
+    .nav-btn-lg {
+        margin-right: 10px;
+    }
+
+    .nav-btn>a {
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    .navbar-toggler {
+        font-size: 12px;
+    }
+
+    /* Banner section */
+    .banner-section {
+        padding-bottom: 52px;
+    }
+
+    .banner-wrapper {
+        padding-top: 55px;
+        border-radius: 12px;
+    }
+
+    .banner-contents {
+        font-size: 13px;
+    }
+
+    .banner-contents>a {
+        font-size: 10px;
+        padding: 15px 20px;
+        margin-bottom: 18px;
+    }
+
+    .banner-gif {
+        padding: 7px;
+    }
+
+    /* Property section */
+    .prop-secondary>div>a {
+        padding: 12px 33px;
+        font-size: 12px;
+    }
+
+    /* Card section */
+    .s-color-card>div>p,
+    .w-color-card>div>p {
+        font-size: 13px;
+    }
+
+    .w-color-card>a,
+    .s-color-card>a {
+        font-size: 13px;
+    }
+
+
+}
