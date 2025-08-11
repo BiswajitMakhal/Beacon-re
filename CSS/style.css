@@ -310,15 +310,20 @@ header {
     margin-top: 30px;
 }
 
-.s-color-card>a:hover,
-.w-color-card>a:hover {
-    text-decoration: underline;
-}
-
 .c-icon {
     width: 12.5px;
     margin-left: 6px;
+    transition: 0.3s ease;
 }
+
+
+.s-color-card>a:hover img,
+.w-color-card>a:hover img {
+    transform: translateX(4px);
+}
+
+
+
 
 
 /* -------------------------------------------BREAKPOINT-------------------------------------------------- */
