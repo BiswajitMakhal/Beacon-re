@@ -245,11 +245,22 @@ header {
     max-width: 1530px !important;
 }
 
+.card-wrpr {
+    display: flex;
+    justify-content: center;
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+}
+
+.col-extra {
+    padding: 0 10px;
+    margin-block: 8px;
+}
+
 .c-img {
     max-width: 360px;
     height: 356px;
     margin: 0 auto;
-    margin-block: 9px;
     border-radius: 10px;
 }
 
@@ -267,7 +278,6 @@ header {
     padding: 28px;
     max-width: 360px;
     height: 356px;
-    margin-block: 9px;
     border-radius: 10px;
 }
 
@@ -358,13 +368,6 @@ header {
 
 }
 
-@media screen and (max-width:767.98px) {
-
-    /* Card section */
-    .reverse {
-        flex-direction: column-reverse;
-    }
-}
 
 @media screen and (max-width:576px) {
     .title {
@@ -429,6 +432,16 @@ header {
     }
 
     /* Card section */
+
+    .card-wrpr {
+        flex-wrap: wrap;
+    }
+
+    .card-section .row>:nth-child(3)>.card-wrpr,
+    .card-section .row>:nth-child(4)>.card-wrpr {
+        flex-direction: column-reverse;
+    }
+
     .s-color-card>div>p,
     .w-color-card>div>p {
         font-size: 13px;
