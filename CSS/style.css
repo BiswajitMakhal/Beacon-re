@@ -331,11 +331,17 @@ header {
  =============== */
 
 /* sub footer */
+.sub-footer {
+    max-width: 945px;
+    margin: 0 auto;
+    position: relative;
+    top: -65px;
+}
+
 .s-content {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    max-width: 945px;
     padding: 38px 35px;
     background-color: #8a737d;
     border-radius: 6px;
@@ -395,13 +401,6 @@ header {
     height: 100%;
     width: 100%;
     object-fit: contain;
-}
-
-.sub-footer {
-    max-width: 945px;
-    margin: 0 auto;
-    position: relative;
-    top: -65px;
 }
 
 
@@ -658,6 +657,10 @@ header {
     }
 
     /* Footer section */
+    .sub-footer {
+        top: -80px;
+    }
+
     .foot-logo {
         margin-bottom: 35px;
     }
