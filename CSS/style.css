@@ -113,10 +113,12 @@ header {
 
 .nav-list:hover {
     color: var(--primary-color);
+    transition: .5s;
 }
 
 .nav-btn>a:hover {
     background: rgba(172, 171, 171, 0.778);
+    transition: .5s;
 }
 
 /* Off canvas */
@@ -158,6 +160,7 @@ header {
 
 .banner-contents>a:hover {
     background: rgba(143, 8, 130, 0.684);
+    transition: .5s;
 }
 
 .banner-gif {
@@ -225,6 +228,7 @@ header {
 
 .prop-secondary>div>a:hover {
     background: rgba(143, 8, 130, 0.684);
+    transition: .5s;
 }
 
 /*=============
@@ -378,6 +382,8 @@ header {
 .footer-section {
     padding: 0 16px;
     background: #18212d;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .foot-logo {
