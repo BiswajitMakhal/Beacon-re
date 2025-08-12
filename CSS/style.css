@@ -366,12 +366,14 @@ header {
 }
 
 /* ---sub footer end----------------------------------------------------- */
+.footer-container {
+    max-width: 1430px !important;
+}
 
 .footer-section {
     padding: 0 16px;
     background: #18212d;
 }
-
 
 .foot-logo {
     max-width: 195px;
