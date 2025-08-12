@@ -450,6 +450,7 @@ header {
 
 #email {
     background: transparent;
+    color: var(--primary-color);
     border-radius: 50px;
     border: 1px solid #eefdf8;
     padding: 12px 14px;
