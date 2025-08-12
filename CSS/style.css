@@ -482,15 +482,13 @@ header {
 }
 
 
-.rounded-circle>a>img,
-.rounded-circle>a {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-}
-
 .rounded-circle:hover {
     background: var(--primary-color) !important;
+}
+
+.rounded-circle>img:hover {
+    transform: rotate(360deg);
+    transition: .5s;
 }
 
 
