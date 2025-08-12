@@ -677,6 +677,8 @@ header {
 
     .s-btns {
         margin-left: 0;
+        padding: 10px 14px;
+        font-size: 12px;
     }
 
     .foot-top {
