@@ -570,6 +570,10 @@ header {
         max-width: 140px;
     }
 
+    .f-submit {
+        background-size: 25px;
+    }
+
 }
 
 
@@ -693,6 +697,10 @@ header {
 
     .foot-link {
         font-size: 13px;
+    }
+
+    .f-submit {
+        background-size: 20px;
     }
 
 
