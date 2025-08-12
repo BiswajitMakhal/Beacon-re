@@ -675,6 +675,14 @@ header {
         margin-left: 0;
     }
 
+    .foot-top {
+        margin-bottom: 28px;
+    }
+
+    .list-item {
+        margin-bottom: 35px;
+    }
+
     .list-item>li {
         margin-bottom: 14px;
     }
@@ -686,6 +694,7 @@ header {
     .foot-link {
         font-size: 13px;
     }
+
 
 
 
