@@ -365,6 +365,11 @@ header {
     color: black;
 }
 
+.s-btns:hover {
+    background-color: rgb(176, 176, 181);
+    transition: 0.5s;
+}
+
 /* ---sub footer end----------------------------------------------------- */
 .footer-container {
     max-width: 1430px !important;
@@ -460,12 +465,14 @@ header {
 
 .f-submit:hover {
     background-color: grey;
+    transition: .5s;
 }
 
 
 .rounded-circle {
     height: 41px;
     width: 41px;
+    transition: .5s;
 }
 
 .rounded-circle>img {
